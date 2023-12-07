@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333;
+  align-content: stretch;
+  padding: 1rem 3rem;
+}
+
+.navigation__item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navigation__item:hover {
+  background-color: #555;
+  color: #007bff;
+}
